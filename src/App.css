@@ -17,7 +17,7 @@
 .topRow {
   display: flex;
   justify-content: space-around;
-  place-items: center;
+  place-items: start;
   /* height: 20rem; */
 }
 
@@ -27,10 +27,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  place-items: center;
+  /* place-items: center; */
   border: 3px solid white;
   border-radius: 0.5rem;
   width: 15rem;
+  height: 220px;
 }
 
 .home {
@@ -61,7 +62,9 @@
   background-color: var(--black);
   color: var(--red);
   padding: 5%;
+  padding-bottom:10px;
 }
+
 
 .timer {
   font-family: "Ozone";
