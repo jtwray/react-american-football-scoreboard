@@ -1,0 +1,22 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": null
+  },
+  "1 error pnpm": {
+    "message": {
+      "errno": 3221225495,
+      "code": "ELIFECYCLE",
+      "pkgid": "american-football-scoreboard@0.1.0",
+      "stage": "start",
+      "script": "react-scripts start",
+      "pkgname": "american-football-scoreboard"
+    },
+    "err": {
+      "name": "Error",
+      "message": "american-football-scoreboard@0.1.0 start: `react-scripts start`\nExit status 3221225495",
+      "code": "ELIFECYCLE",
+      "stack": "Error: american-football-scoreboard@0.1.0 start: `react-scripts start`\nExit status 3221225495\n    at EventEmitter.<anonymous> (C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\2\\node_modules\\.registry.npmjs.org\\pnpm\\3.7.3\\node_modules\\pnpm\\lib\\node_modules\\@zkochan\\npm-lifecycle\\index.js:302:16)\n    at EventEmitter.emit (events.js:203:13)\n    at ChildProcess.<anonymous> (C:\\Users\\lenovo\\AppData\\Roaming\\npm\\pnpm-global\\2\\node_modules\\.registry.npmjs.org\\pnpm\\3.7.3\\node_modules\\pnpm\\lib\\node_modules\\@zkochan\\npm-lifecycle\\lib\\spawn.js:55:14)\n    at ChildProcess.emit (events.js:203:13)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)"
+    }
+  }
+}
